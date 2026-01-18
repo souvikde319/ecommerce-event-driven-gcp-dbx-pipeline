@@ -42,3 +42,7 @@ flowchart LR
     E1 --> G[Final Merge - Gold]
 
     G --> D1[Delta Lake + Unity Catalog]
+
+
+## 🔖 Tags
+#DataEngineering #Databricks #GCP #PySpark #DeltaLake #Lakehouse #BigData #ETL
