@@ -28,8 +28,6 @@ The pipeline automatically triggers when files are dropped into GCS buckets and 
 
 ## 📊 Pipeline Diagram
 
-> 📁 Diagram file included: `gcp_databricks_pipeline.drawio`  
-(Open with https://app.diagrams.net)
 
 ```mermaid
 flowchart LR
