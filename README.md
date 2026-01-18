@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Storage-Delta%20Lake-green?logo=delta&logoColor=white" />
   <img src="https://img.shields.io/badge/Language-PySpark-orange?logo=apache-spark&logoColor=white" />
   <img src="https://img.shields.io/badge/Governance-Unity%20Catalog-purple" />
-</p> 
+</p>
 
 ---
 
@@ -19,15 +19,17 @@ The pipeline automatically triggers when files are dropped into GCS buckets and 
 ## 🏗️ Architecture & Data Flow
 
 ### 🔄 High-Level Flow
-- Source data lands in GCS buckets
-- Databricks pipeline is triggered automatically
-- Data flows through Bronze → Silver → Gold layers
-- Final analytics tables are stored in Delta Lake
+- Source data lands in GCS buckets  
+- Databricks pipeline is triggered automatically  
+- Data flows through **Bronze → Silver → Gold** layers  
+- Final analytics tables are stored in **Delta Lake**  
 
 ---
 
 ## 📊 Pipeline Diagram
 
+> 📁 Diagram file included: `gcp_databricks_pipeline.drawio`  
+> Open with: https://app.diagrams.net
 
 ```mermaid
 flowchart LR
@@ -42,7 +44,3 @@ flowchart LR
     E1 --> G[Final Merge - Gold]
 
     G --> D1[Delta Lake + Unity Catalog]
-
-
-## 🔖 Tags
-#DataEngineering #Databricks #GCP #PySpark #DeltaLake #Lakehouse #BigData #ETL
