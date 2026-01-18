@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Storage-Delta%20Lake-green?logo=delta&logoColor=white" />
   <img src="https://img.shields.io/badge/Language-PySpark-orange?logo=apache-spark&logoColor=white" />
   <img src="https://img.shields.io/badge/Governance-Unity%20Catalog-purple" />
-</p>
+</p> 
 
 ---
 
